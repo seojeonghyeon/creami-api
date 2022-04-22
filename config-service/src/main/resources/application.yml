@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-service
+  profiles:
+    active: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/seojeonghyeon/creami-cloud-config.git
+          username: seojeonghyeon
+          password: '{cipher}AQBLqYujx/GDRnKSOt9W9zFcxNTOVGFntdodQ39GQLxls/bEVqO/Er0yqxPN2O6JQ+Um+IRmsTxzt0xtyt9n7eHYaf7oA1aRKLaKVSka9hPN1CC0W+2GdUcCG/lNhiYX/2QhHOd1/C+bsPlbrWmEeQCP3vcZpKvlVlSoHNjc4UxvREXpWXwBq5sUkrqC1Oa22hhkLHg0LBFhZBF5WkvxipUO7OsacujhAzKrTzFAhYmzwpyr9y6vT2gWa+FkvqVf6lOWljoeuMxHHoDK57HSAGyGFxtuLnH0D7Hn0aHQ6ozT48E/xIAdArD7dX0J8HcBd7MPdtAMir6OF9TbjfsvBnJ/IleF6eQncYmtM+uc3oHr51KGp++Bfr44Igs6PuAGEK1/mo8b1jvLLuiEQTVoJJwKlxBAUF8wypJa+FNDqw8DoQ=='
